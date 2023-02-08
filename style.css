@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* top view section */
+
+.topView {
+  background-image: url(./images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroContent {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  height: 100vh;
+}
+
+.heroContentLeft {
+  flex-basis: 50%;
+}
+
+.heroContentRight {
+  flex-basis: 50%;
+}
+
+.heroContentRight h1 {
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 65px;
+  color: #151414;
+  text-transform: capitalize;
+}
+
+.heroContentRight p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #444343;
+  margin: 30px 0;
+}
+
+.btn a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #ffffff;
+  background-color: #f15b22;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+/* top view section end*/
+
+/* about section start */
+.about {
+  padding: 100px 0;
+}
+
+.aboutContent {
+  display: flex;
+  align-items: center;
+}
+
+.aboutContent-left-img img {
+  height: 600px;
+  width: auto;
+  margin-right: 100px;
+}
+.aboutContent-right-content h2 {
+  font-size: 40px;
+  line-height: 38px;
+  padding-top: 150px;
+}
+
+.aboutContent-right-content > p {
+  margin: 30px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #444343;
+}
+.aboutContent-right-content ul {
+  list-style: none;
+}
+
+.aboutContent-right-content ul li {
+  display: flex;
+}
+.aboutContent-right-content ul li span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #16d887;
+  margin-right: 5px;
+}
+.aboutContent-right-content ul li p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #444343;
+}
+
+/* about section end */
+
+/* My Plans start */
+
+.myPlans {
+  padding-bottom: 50px;
+}
+
+.allPlans-title {
+  text-align: center;
+  margin: 50px 0;
+}
+.allPlans-title h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #151414;
+}
+
+.allPlans-des {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan {
+  text-align: center;
+}
+
+.plan .fa-code {
+  font-size: 15px;
+  padding: 20px;
+  background-color: #c8cac9;
+  border-radius: 50%;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.plan h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #151414;
+}
+/* My Plans end */
