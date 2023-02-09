@@ -71,15 +71,22 @@
   align-items: center;
 }
 
+.aboutContent-left-img {
+  /* margin-right: 100px; */
+  flex-basis: 60%;
+}
 .aboutContent-left-img img {
   height: 600px;
   width: auto;
-  margin-right: 100px;
+}
+
+.aboutContent-right-content {
+  flex-basis: 40%;
 }
 .aboutContent-right-content h2 {
   font-size: 40px;
   line-height: 38px;
-  padding-top: 150px;
+  margin-top: 150px;
 }
 
 .aboutContent-right-content > p {
@@ -138,12 +145,8 @@
   text-align: center;
 }
 
-.plan .fa-code {
-  font-size: 15px;
+.plan img {
   padding: 20px;
-  background-color: #c8cac9;
-  border-radius: 50%;
-  color: #000000;
   margin-bottom: 20px;
 }
 
@@ -152,5 +155,22 @@
   font-weight: 700;
   line-height: 26px;
   color: #151414;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+.plan p {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #737272;
 }
 /* My Plans end */
+
+/* call now section start */
+
+.call {
+  padding: 80px 50px;
+  background-image: linear-gradient();
+  border-radius: 5px;
+}
+/* call now section end */
