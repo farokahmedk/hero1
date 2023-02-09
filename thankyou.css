@@ -1,0 +1,15 @@
+h1 {
+  width: 60%;
+  margin: 50px auto;
+}
+
+a {
+  width: 60%;
+  margin: auto;
+  display: block;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}

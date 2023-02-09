@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&family=Work+Sans:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -12,7 +12,9 @@
   margin: 0 auto;
 }
 
-/* top view section */
+/*=============================================
+=            top view                         =
+=============================================*/
 
 .topView {
   background-image: url(./images/banner/banner2.png);
@@ -58,10 +60,19 @@
   background-color: #f15b22;
   padding: 15px 20px;
   border-radius: 5px;
+  font-weight: 600;
 }
-/* top view section end*/
 
-/* about section start */
+.btn a:hover {
+  color: #f15b22;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+/*=====  End of top view  ======*/
+
+/*=============================================
+=            about                            =
+=============================================*/
 .about {
   padding: 100px 0;
 }
@@ -117,9 +128,11 @@
   color: #444343;
 }
 
-/* about section end */
+/*=====  End of about  ======*/
 
-/* My Plans start */
+/*=============================================
+=            My Plans            =
+=============================================*/
 
 .myPlans {
   padding-bottom: 50px;
@@ -127,7 +140,7 @@
 
 .allPlans-title {
   text-align: center;
-  margin: 50px 0;
+  margin: 70px 0;
 }
 .allPlans-title h2 {
   font-size: 40px;
@@ -164,13 +177,145 @@
   line-height: 26px;
   color: #737272;
 }
-/* My Plans end */
 
-/* call now section start */
+/*=====  End of My Plans  ======*/
 
+/*=============================================
+=            call-now                         =
+=============================================*/
+.callNow {
+  padding: 100px 0;
+}
 .call {
   padding: 80px 50px;
-  background-image: linear-gradient();
+  background-image: linear-gradient(
+      to right,
+      rgba(245, 246, 252, 0.52),
+      rgba(117, 19, 93, 0.73)
+    ),
+    url("./images/watch.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 5px;
 }
-/* call now section end */
+
+.call h2 {
+  color: #151414;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-weight: 700;
+}
+/*=====  End of call-now  ======*/
+
+/*=============================================
+=            footer start                     =
+=============================================*/
+
+footer {
+  background-color: #151414;
+}
+.mainFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 0;
+}
+
+.footerLeft {
+  flex-basis: 50%;
+}
+
+.footerLeft h2 {
+  font-size: 45px;
+  color: #f8f8f8;
+  font-weight: 700;
+}
+
+.footerLeft p {
+  padding: 15px 0;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footerLeft span,
+.footerLeft a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footerLeft a {
+  text-decoration: none;
+}
+
+.socialIcons {
+  margin-top: 30px;
+}
+.socialIcons ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.socialIcons ul li {
+  margin-right: 20px;
+}
+
+.socialIcons ul li a {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.socialIcons ul li:hover a {
+  opacity: 0.5;
+}
+.fa-facebook-f {
+  color: #006aff;
+  padding: 0 5px;
+}
+.fa-twitter {
+  color: #1da1f2;
+  padding: 0 2px;
+}
+
+.fa-youtube {
+  color: #ff0000;
+}
+.footerRight h3 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footerRight form {
+  margin-top: 30px;
+}
+
+.footerRight form input[type="email"] {
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.footerRight form input[type="submit"] {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  border-radius: 5px;
+  color: #f15b22;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footerRight form input[type="submit"]:hover {
+  background-color: #f15b22;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+/*=====  End of footer  ======*/
